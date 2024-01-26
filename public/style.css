@@ -1,0 +1,89 @@
+body {
+    margin: 5rem 20px;
+    background-color:lavenderblush;
+    font-family: sans-serif;
+}
+
+h1 {
+    padding-left: 10rem;
+    color: rgb(94, 24, 97);
+}
+
+.chat {
+    width: 30rem;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 16px;
+    border: 2px solid rgb(142, 62, 146);
+}
+
+.chat:hover {
+    width: 30.2rem;
+    background-color: rgb(235, 235, 226);
+    box-shadow: 5px 5px 8px rgb(60, 40, 60);
+}
+
+.msg {
+    background-color: rgb(142, 62, 146);
+    color: white;
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-weight: 500;
+}
+
+.newCht {
+    margin-left: 10.5rem;
+    background-color: rgb(142, 62, 146);
+    padding: 15px 30px;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 2px rgb(230, 230, 216);
+}
+
+.btn {
+    background-color: rgb(230, 230, 216);
+    padding: 0.4rem 1rem;
+    border-radius: 10px;
+}
+
+.container {
+    width: 25rem;
+    margin-left: 20rem;
+    padding: 4rem 5rem;
+    background-color: rgb(230, 230, 216);
+    border: 2px solid purple;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    box-shadow: 3px 3px 5px rgb(75, 56, 75);
+}
+
+.from_to, .msg_cont {
+    padding: 1rem 2rem;
+    background-color: rgb(244, 243, 235);
+    border-radius: 15px;
+    border: 2px solid purple;
+    box-shadow: 3px 3px 5px rgb(75, 56, 75);
+}
+
+.btn_n, .btn_d {
+    padding: 15px 20px;
+    background-color: rgb(142, 62, 146);
+    color: white;
+    border-radius: 15px; 
+}
+
+.para {
+    margin-left: 20rem;
+}
+
+.para, .para_in {
+    font-size: larger;
+    color: rgb(108, 7, 108);
+} 
+
+.btn_d {
+    margin-top: 6rem;
+    transform: translateX(-16rem);
+}
